@@ -1,0 +1,36 @@
+*{margin:0px; padding:0px;}
+#container{height:100vh; background-color:white;}
+#menu
+{
+    margin-top:60px;
+    margin-left:20px;
+    margin-right:20px;
+    height:30px;
+    background-color:rgb(214, 210, 210);
+    justify-content:space-evenly;
+    align-items:centre;
+    display:flex;
+    padding-top:13px;
+}
+.menu_text{display:block; color:gray;}
+#area_immagini{height:80px; width:170px; position:center; float:left;}
+.immagine1{height:60px; width:20%;}
+.titolo
+{
+    color:rgb(27, 146, 243);
+    font-weight:bold;
+    font-size:40px;
+    margin-top:20px;
+    text-align:center;
+    align-content:center;
+
+}
+
+@media only screen and (max-width:600px)
+{
+    #menu
+    {
+        display:none;
+    }
+
+}
